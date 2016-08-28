@@ -66,7 +66,7 @@ function parseBody(body) {
 
 function filterPlugins(plugins) {
   return {
-    presets: plugins.filter((e) => e.search(/babel-preset/g)),
-    plugins: plugins.filter((e) => e.search(/babel-plugin-transform/g))
+    presets: plugins.filter((e) => !e.search(/babel-preset/g)),
+    plugins: plugins.filter((e) => !e.search(/babel-plugin-transform/g))
   }
 }
