@@ -1,0 +1,22 @@
+{
+  "name": "babel-preset-list",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "abouthiroppy <git@about-hiroppy.com> (http://about-hiroppy.com)",
+  "license": "MIT",
+  "bin": {
+    "babel-preset-list": "./index.js"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "inquirer": "^1.1.2",
+    "node-fetch": "^1.6.0"
+  }
+}
